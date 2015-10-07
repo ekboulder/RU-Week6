@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <style type="text/css">
+      html, body { height: 100%; margin: 0; padding: 0; }
+      #map { height: 100%; }
+    </style>
+  </head>
+  <body>
+  
+    
+
+	<div>
+    	<h1> this is Seville </h1>
+
+		<form method="POST" action="/formsubmit">
+	
+				<select name='locations'>
+				  <option value="canary">Canary Islands</option>
+				  <option value="carpe">Carpe Verde</option>
+				  <option value="guam">Guam</option>
+				  <option value="philippines" >Philippines</option>
+				  <option value="seville" >Seville</option>
+				  <option value="strait" >Strait Magellan</option>
+				   <option value="other" >other</option>
+				</select>
+
+				<input type="submit">
+
+		</form>
+
+		<button>
+			<a href='/next?location=Seville'>Next</a>
+		</button>
+    
+    </div>
+
+	<div id="map"></div>
+
+    <script type="text/javascript">
+
+var map;
+function initMap() {
+  map = new google.maps.Map(document.getElementById('map'), {
+    center: {lat: 37.38264, lng: -5.9962951},
+    zoom: 8
+  });
+}
+
+    </script>
+    <script async defer
+      src="https://maps.googleapis.com/maps/api/js?key=AIzaSyBGkjpLbQ35AJa2-3DHI1UvH5uiLxjvvLs&callback=initMap">
+    </script>
+ 
+
+  </body>
+</html>

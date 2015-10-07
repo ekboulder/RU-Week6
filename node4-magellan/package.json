@@ -1,0 +1,15 @@
+{
+  "name": "magellans",
+  "version": "1.0.0",
+  "description": "the magellan project",
+  "main": "app.js",
+  "scripts": {
+    "test": "whatever"
+  },
+  "author": "edk",
+  "license": "RefactorU",
+  "dependencies": {
+    "express": "~4.13.3",
+    "body-parser": "~1.14.1"
+  }
+}

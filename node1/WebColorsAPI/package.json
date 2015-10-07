@@ -1,0 +1,15 @@
+{
+  "name": "myColorsApp",
+  "version": "1.0.0",
+  "description": "a Web Colors API. Takes in a color name and returns the corresponding rgb componenets.",
+  "main": "index.js",
+  "scripts": {
+    "test": "not sure about testing"
+  },
+  "author": "edk",
+  "license": "MIT",
+  "dependencies": {
+    "request": "~2.64.0",
+    "underscore": "~1.8.3"
+  }
+}

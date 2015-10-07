@@ -1,0 +1,14 @@
+{
+  "name": "myNameApp",
+  "version": "0.0.0",
+  "description": "a test json file",
+  "main": "tbd",
+  "scripts": {
+    "test": "i don't know"
+  },
+  "author": "",
+  "license": "BSD-2-Clause",
+  "dependencies": {
+    "underscore": "~1.8.3"
+  }
+}

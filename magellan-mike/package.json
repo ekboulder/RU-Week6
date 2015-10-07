@@ -1,0 +1,15 @@
+{
+  "name": "magellanApp",
+  "version": "1.0.0",
+  "description": "a group express nodejs app",
+  "main": "app.js",
+  "scripts": {
+    "test": "whatever"
+  },
+  "author": "ek and Mike",
+  "license": "MIT",
+  "dependencies": {
+    "express": "~4.13.3",
+    "body-parser": "~1.14.1"
+  }
+}
