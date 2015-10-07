@@ -1,0 +1,14 @@
+{
+  "name": "ContestApp",
+  "version": "1.0.0",
+  "description": "hello",
+  "main": "app.js",
+  "scripts": {
+    "test": "whatever"
+  },
+  "author": "edk",
+  "license": "MIT",
+  "dependencies": {
+    "express": "~4.13.3"
+  }
+}
