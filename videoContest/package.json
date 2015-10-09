@@ -1,0 +1,19 @@
+{
+  "name": "videoContest",
+  "version": "1.0.0",
+  "description": "a video submission and voting app",
+  "main": "app.js",
+  "scripts": {
+    "test": "testing testing"
+  },
+  "keywords": [
+    "video",
+    "voting"
+  ],
+  "author": "edk",
+  "license": "RefactorU",
+  "dependencies": {
+    "express": "~4.13.3",
+    "body-parser": "~1.14.1"
+  }
+}
