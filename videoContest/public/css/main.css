@@ -1,0 +1,20 @@
+
+
+  .submission-wrapper {
+	padding:10px;
+  }
+
+  .submission-list {
+  	border-left: solid 1px grey;
+  	margin: 20px;
+  }
+
+  .contest-area {
+  	border: solid 1px;
+  	padding: 5px;
+  }
+
+  .contest-pair {
+  	/*border: solid 1px;*/
+  	/*margin: 5px;*/
+  }

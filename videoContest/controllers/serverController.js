@@ -14,8 +14,17 @@ var submissionRouting = function (req, res){
 
 }
 
+var setVote = function (req,res) {
+	console.log('set Vote:',req.body)
+	submissions.submissionsList[req.body.id].voteCount++
+	res.send(submissions.submissionsList)
+		
+
+}
+
 module.exports = {
 	getListing			: getListing,
 	submissionRouting 	: submissionRouting,
+	setVote				: setVote,
 	
 }

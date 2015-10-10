@@ -23,6 +23,7 @@ app.get('/', function(req, res){
 
 app.post('/newsubmission', serverController.submissionRouting)
 app.get('/getlisting', serverController.getListing)
+app.post('/votesubmission', serverController.setVote)
 
 // Creating Server and Listening for Connections \\
 var port = 3000
@@ -30,3 +31,4 @@ app.listen(port, function(){
   console.log('Server running on port ' + port);
 
 })
+
